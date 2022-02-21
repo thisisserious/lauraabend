@@ -18,6 +18,8 @@ a:visited {
     display: flex;
     align-items: flex-end;
     flex-direction: column;
+    padding-top: 8px;
+    padding-right: 8px;
 }
 
 .dark-mode-on {
@@ -26,8 +28,8 @@ a:visited {
 }
 
 .dark-mode-status {
-    margin-top: 5px;
-    padding: 0px 5px;
+    margin-top: 4px;
+    padding: 0px 4px;
 }
 
 .main-content {
