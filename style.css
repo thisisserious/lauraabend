@@ -32,13 +32,18 @@ a:visited {
     padding: 0px 4px;
 }
 
+.fa.fa-github {
+    font-size: 36px;
+}
+
 .main-content {
     align-items: center;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 80vh;
+    height: 78vh;
     justify-content: center;
+    text-align: center;
 }
 
 .switch {
