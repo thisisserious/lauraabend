@@ -3,6 +3,7 @@ $(function () {
     const darkModeString = "Dark mode is";
     const onString = "on";
     const offString = "off";
+
     $("input").on("click", function() {
       if (!darkModeOn) {
         darkModeOn = true;
@@ -14,4 +15,7 @@ $(function () {
         $("body, a").removeClass("dark-mode-on");
       }
     });
+
+    const fullYear = new Date().getFullYear();
+    $(".year").text(fullYear);
   });  
