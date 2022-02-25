@@ -6,3 +6,5 @@
 ## Design
 - I was inspired by simplicity and Ron Swanson. ("Man. Most Eggs.")
 - I was more concerned with getting my site live as quickly as possible; fretting over the design can sometimes slow me down. So I kept the design simple.
+## To do
+1. update cypress element selection to use best practices
