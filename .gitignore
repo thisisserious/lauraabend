@@ -1,2 +1,11 @@
+# cypress; ignoring for now
+cypress/fixtures
+cypress/plugins
+cypress/support
+cypress/videos
+
+# os
 .DS_Store
+
+# node
 node_modules

@@ -1,0 +1,24 @@
+{
+  "name": "lauraabend",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thisisserious/lauraabend.git"
+  },
+  "author": "laura abend",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thisisserious/lauraabend/issues"
+  },
+  "homepage": "https://github.com/thisisserious/lauraabend#readme",
+  "devDependencies": {
+    "cypress": "9.5.0"
+  }
+}
