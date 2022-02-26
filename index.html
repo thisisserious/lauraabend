@@ -8,7 +8,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>laura abend</title>
-        <meta name="description" content="">
+        <meta name="description" content="my personal website">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="dark-mode.js"></script>
@@ -19,25 +19,25 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="manifest" href="favicon_io/site.webmanifest">
     </head>
-    <body>
+    <body data-cy="all-content">
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <div class="dark-mode-container">
             <label class="switch">
                 <input type="checkbox">
-                <span class="slider round"></span>
+                <span class="slider round" data-cy="dark-mode-toggle"></span>
             </label>
-            <p class="dark-mode-status">Dark mode is off</p>
+            <p class="dark-mode-status" data-cy="dark-mode-text">Dark mode is off</p>
         </div>
         <div class="main-content">
-            <h1>I am a developer.</h1>
+            <h1 data-cy="main-header">I am a developer.</h1>
             <h2>I created this site and deployed it to Google Cloud Platform (GCP).</h2>
             <h3>My detailed work history can be found on <a href="https://www.linkedin.com/in/lauraabend/" target="_blank" title="Go to my LinkedIn">LinkedIn</a>.</h3>
         </div>
         <footer>
             <a href="https://github.com/thisisserious" target="_blank"><i class="fa fa-github"></i></a>
-            <p>&copy; <span class="year"></span></p>
+            <p>&copy; <span class="year" data-cy="current-year"></span></p>
         </footer>
     </body>
 </html>
