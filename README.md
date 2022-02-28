@@ -8,3 +8,4 @@
 - I was more concerned with getting my site live as quickly as possible; fretting over the design can sometimes slow me down. So I kept the design simple.
 ## To do
 1. Think of more updates to make
+1. Add tests for the 404 page
